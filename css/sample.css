@@ -1,0 +1,96 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .main-header {
+    padding-bottom: 15%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+  }
+  
+  /* From here */
+  header {
+      background-color: rgb(51, 50, 50);
+      height: 70px;
+  }
+  
+  header ul {
+      padding: 1.5rem;
+  }
+  
+  header ul a {
+  text-decoration: none;
+  color: white;
+  }
+  header ul a:hover{
+      color:black;
+  }
+  
+  header li {
+    display: inline-block;
+
+  }
+  .left{
+      float: left;
+      padding-left: 1rem;
+  }
+  .right{
+      float: right;
+      padding-right: 1rem;
+
+  }
+  
+  header ul:after {
+  }
+  /* This is the implementation of the header part */
+  
+  .main-header img {
+  /* Implementation of the main image (image of the white "Achieve" character)*/
+   position: relative;
+   top:5rem;
+ }
+  
+  .about {
+  /* Implementation of the About Achieve part*/
+  }
+  
+  /* from here */
+  .function {
+      background-color: rgb(224, 224, 224);
+  }
+  
+  .function-images {
+      padding: 5rem;
+    padding-bottom: 8rem;
+
+  }
+  .function-header{
+      padding-top: 1.5rem;
+  }
+  
+  .function-image {
+    display: inline-block;
+
+  }
+  .pad{
+    margin-left: 3rem;   
+      
+  }
+  /* Here is the implementation of the function part */
+  
+  footer {
+  /* Implementation of footer part */
+  background-color:#17223b;
+  height:70px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  }
+  
